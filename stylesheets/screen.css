@@ -1,0 +1,131 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* Usage
+.button {
+  @include border-radius(5px);
+}
+
+.submit-button {
+  @include border-top-radius(10px);
+  @include border-right-radius(8px);
+  @include border-bottom-radius(10px);
+  @include border-left-radius (6px);
+}
+*/
+/* Usage
+.article-heading {
+  @include opacity(0.8);
+}
+*/
+/* Usage
+.page-wrap {
+  width: 75%;
+  @include breakpoint(large) { width: 60%; }
+  @include breakpoint(medium) { width: 80%; }
+  @include breakpoint(small) { width: 95%; }
+}
+-----------------------------------------------
+Output
+
+.page-wrap {
+  width: 75%;
+}
+@media (min-width: 64.375em) {
+  .page-wrap {
+    width: 60%;
+  }
+}
+@media (min-width: 50em) {
+  .page-wrap {
+    width: 80%;
+  }
+}
+@media (min-width: 37.5em) {
+  .page-wrap {
+    width: 95%;
+  }
+}
+*/
+/* Usage
+.abs {
+  @include abs-pos(10px, 10px, 5px, 15px);
+}
+*/
+/* Usage
+body {
+  @include font-size(16);
+}
+*/
+/* Usage
+.text-truncate {
+  @include text-truncate;
+}
+*/
+/* line 12, ../sass/screen.scss */
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 16, ../sass/screen.scss */
+nav * {
+  line-height: 52px;
+}
+
+/* line 20, ../sass/screen.scss */
+#head {
+  background-color: #dd1e2f;
+}
+
+/* line 23, ../sass/screen.scss */
+#head * {
+  color: #fff;
+  text-align: center;
+}
+/* line 26, ../sass/screen.scss */
+#head * h2 {
+  font-weight: 200;
+}
+
+/* line 30, ../sass/screen.scss */
+.fullWidth {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: initial;
+}
+
+/* line 36, ../sass/screen.scss */
+.bmargin-bottom {
+  margin-bottom: 80px;
+}
+
+/* line 39, ../sass/screen.scss */
+.bmargin-top {
+  margin-top: 80px;
+}
+
+/* line 42, ../sass/screen.scss */
+.mmargin-bottom {
+  margin-bottom: 50px;
+}
+
+/* line 45, ../sass/screen.scss */
+.mmargin-top {
+  margin-top: 50px;
+}
+
+/* line 48, ../sass/screen.scss */
+.smargin-bottom {
+  margin-bottom: 30px;
+}
+
+/* line 51, ../sass/screen.scss */
+.smargin-top {
+  margin-top: 30px;
+}

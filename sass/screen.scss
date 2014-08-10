@@ -1,0 +1,53 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import "base";
+$primary-background: #eee;
+$orange: #FFA100;
+$blue: #65CFE9;
+$red: #E05206;
+*,
+*:after,
+*:before {
+	@include box-sizing(border-box);
+
+}
+nav * {
+	line-height: 52px;
+}
+
+#head {
+	background-color: #dd1e2f;
+}
+#head * {
+	color: #fff;
+	text-align: center; 
+	h2 {
+		font-weight: 200;
+	}
+}
+.fullWidth {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: initial;
+}
+.bmargin-bottom {
+	margin-bottom: 80px
+}
+.bmargin-top {
+	margin-top: 80px;
+}
+.mmargin-bottom {
+	margin-bottom: 50px
+}
+.mmargin-top {
+	margin-top: 50px;
+}
+.smargin-bottom {
+	margin-bottom: 30px
+}
+.smargin-top {
+	margin-top: 30px;
+}
