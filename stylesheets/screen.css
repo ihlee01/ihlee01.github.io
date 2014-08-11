@@ -73,26 +73,43 @@ body {
 }
 
 /* line 16, ../sass/screen.scss */
-nav * {
-  line-height: 52px;
+#headerWrapper {
+  height: 62px;
+}
+/* line 18, ../sass/screen.scss */
+#headerWrapper * {
+  height: 100%;
+}
+/* line 20, ../sass/screen.scss */
+#headerWrapper * #name {
+  height: 100%;
+  line-height: 57px;
+  margin: 0px;
+  padding: 0px;
 }
 
-/* line 20, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
+#navWrapper * {
+  height: 100%;
+}
+
+/* line 33, ../sass/screen.scss */
+nav * {
+  margin-top: 18px;
+}
+
+/* line 36, ../sass/screen.scss */
 #head {
   background-color: #dd1e2f;
 }
 
-/* line 23, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 #head * {
   color: #fff;
   text-align: center;
 }
-/* line 26, ../sass/screen.scss */
-#head * h2 {
-  font-weight: 200;
-}
 
-/* line 30, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 .fullWidth {
   width: 100%;
   margin-left: auto;
@@ -100,32 +117,37 @@ nav * {
   max-width: initial;
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 .bmargin-bottom {
   margin-bottom: 80px;
 }
 
-/* line 39, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 .bmargin-top {
   margin-top: 80px;
 }
 
-/* line 42, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 .mmargin-bottom {
   margin-bottom: 50px;
 }
 
-/* line 45, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 .mmargin-top {
   margin-top: 50px;
 }
 
-/* line 48, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 .smargin-bottom {
   margin-bottom: 30px;
 }
 
-/* line 51, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 .smargin-top {
   margin-top: 30px;
+}
+
+/* line 67, ../sass/screen.scss */
+.slim {
+  font-weight: 200;
 }

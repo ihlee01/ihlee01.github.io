@@ -13,19 +13,32 @@ $red: #E05206;
 	@include box-sizing(border-box);
 
 }
-nav * {
-	line-height: 52px;
+#headerWrapper {
+	height: 62px;
+	* {
+		height:100%;
+		#name {
+			height: 100%;
+			line-height: 57px;
+			margin: 0px;
+			padding: 0px;
+		}
+	}
 }
-
+#navWrapper {
+	* {
+		height: 100%;
+	}
+}
+nav *{
+	margin-top:18px;
+}
 #head {
 	background-color: #dd1e2f;
 }
 #head * {
 	color: #fff;
 	text-align: center; 
-	h2 {
-		font-weight: 200;
-	}
 }
 .fullWidth {
 	width: 100%;
@@ -50,4 +63,7 @@ nav * {
 }
 .smargin-top {
 	margin-top: 30px;
+}
+.slim {
+	font-weight: 200;
 }
