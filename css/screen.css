@@ -100,16 +100,20 @@ nav * {
 
 /* line 36, ../sass/screen.scss */
 #head {
-  background-color: #dd1e2f;
+  background-image: url(../img/main_bg2.jpg);
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  background-position: 50% center;
+  background-repeat: no-repeat;
 }
-
-/* line 39, ../sass/screen.scss */
-#head * {
-  color: #fff;
+/* line 43, ../sass/screen.scss */
+#head div h1 {
+  color: #000;
+  font-size: 5em;
   text-align: center;
 }
 
-/* line 43, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
 .fullWidth {
   width: 100%;
   margin-left: auto;
@@ -117,37 +121,37 @@ nav * {
   max-width: initial;
 }
 
-/* line 49, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 .bmargin-bottom {
-  margin-bottom: 80px;
+  margin-bottom: 120px;
 }
 
-/* line 52, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 .bmargin-top {
-  margin-top: 80px;
+  margin-top: 120px;
 }
 
-/* line 55, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 .mmargin-bottom {
   margin-bottom: 50px;
 }
 
-/* line 58, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 .mmargin-top {
   margin-top: 50px;
 }
 
-/* line 61, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 .smargin-bottom {
   margin-bottom: 30px;
 }
 
-/* line 64, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 .smargin-top {
   margin-top: 30px;
 }
 
-/* line 67, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 .slim {
   font-weight: 200;
 }
