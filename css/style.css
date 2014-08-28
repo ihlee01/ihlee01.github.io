@@ -605,9 +605,16 @@
 
 		.wrapper.style1
 		{
-			background-image: none;
-			background-color: #fff;
+			background-image: url('../images/bg.jpg');
+			background-position: center 0;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+			color: #ccc;
 		}
+			.wrapper.style1 b, strong, h1 {
+				color: #fff;
+			}
 		
 		.wrapper.style2
 		{
