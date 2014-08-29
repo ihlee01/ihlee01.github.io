@@ -41,6 +41,9 @@
 		.wrapper footer {
 			display: none;
 		}
+		.wrapper.style2 p{
+			font-size: 12pt;
+		}
 		.wrapper.style2 #popcorn-wrapper { 
 			height: 122px;
 			width: 245px;
