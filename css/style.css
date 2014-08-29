@@ -301,7 +301,11 @@
 			.image img
 			{
 				display: block;
-				width: 100%;
+			}
+			#bikeshare-logo {
+				display: block;
+				height: 269px;
+				margin: 0 auto;
 			}
 
 			.image.fit
@@ -309,6 +313,10 @@
 				display: block;
 				width: 100%;
 			}
+				.image.fit img {
+					width: 100%;
+					display: block;
+				}
 			
 			.image.featured
 			{
